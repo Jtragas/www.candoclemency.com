@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Amy Ralston Povah — CAN-DO Foundation | Justice Through Clemency</title>
-<meta name="description" content="Amy Ralston Povah, founder of the CAN-DO Foundation, has helped free over 100 people. From a 24-year conspiracy sentence to a full presidential pardon.">
+<title>CAN-DO Foundation | Justice Through Clemency</title>
+<meta name="description" content="CAN-DO Foundation advocates for clemency and second chances, highlighting people freed, active reform work, and updated justice-focused media.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;0,900;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--navy:#1B2A4A;--red:#BF1B2C;--blue:#2B5EA7;--ltblue:#EDF2F9;--gold:#E8C547;--body:#374151;--muted:#6B7280}
+:root{--navy:#11213F;--red:#C3263C;--blue:#2F6EC4;--ltblue:#EEF4FF;--gold:#F4C95D;--body:#2E3A4D;--muted:#667085;--teal:#0E8B8C}
 body{font-family:'Source Sans 3',sans-serif;color:var(--body);background:#fff;line-height:1.7}
 a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
@@ -57,6 +57,10 @@ nav a{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--nav
 .stat-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:20px 12px;text-align:center}
 .stat-num{font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,36px);font-weight:800;color:var(--gold)}
 .stat-label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:4px}
+.mission-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:36px;max-width:900px}
+.mission-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:8px;padding:16px}
+.mission-card h3{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.mission-card p{font-size:14px;line-height:1.5;color:rgba(255,255,255,.86)}
 .video-wrap{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;border:2px solid var(--ltblue);background:var(--navy)}
 .video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none}
 .quote{padding:80px 24px;background:var(--navy);text-align:center}
@@ -74,9 +78,9 @@ footer img{height:50px;margin-bottom:12px}
 <!-- NAV -->
 <header id="nav" style="position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid #e5e7eb">
 <div class="wrap" style="padding:10px 24px;display:flex;align-items:center;justify-content:space-between">
-<img src="data:image/webp;base64,UklGRogOAABXRUJQVlA4IHwOAADQPwCdASrIAKAAPtFepk4oJSOiK9ZaCQAaCWJu3V+opUeiUNa3ii2sPRfPXkq9R/mC87nzH/tj+1XvU+i7/Rb5h6F/TB/3PJV5aHIL9t4f+Xz5nKGOS+y+NTky8fNQL13/qvQb+Q7azXf9P+u/sEezf130fvrfNb+b5Lvw7TNOiJ6+9hXpdm5w0jdoJBIJBIDJDd3zRagjyAOi5r6JxN8e4jPKTrGVK3cvGTlNgMToYuTSCiCmVRU/gYkw6+Pf9qXj/k8HE070jpooqBDlT+rbN7bVWuCgOeQ52OuRwvKpUFlRPtoqFenepfk+E92zw3DsT/afHwq/mfHzA9Fva6tlpwDH9ydOUyQjI8Dq9oQaLUtTuBZq7NG05paLDjU6yFjwLtPQTnArB3u6tl9kkiE08ao0RV0N2XTDbhMEzEhOZT0lDVDneDi3c6iImfCy0xcs0DtKhGkAJPB0/IbOr43YA/KGS3JOmkv4KTcx7ovGXkvAbGd0+AzhrYis44jiF/xRzvgq8HWz9Hux1MMRIUhirrB6IIXC5N75e9zudfQg1hCTf2S9msTriSndsvsXJzU+yyjqEznf0zUNmYVV3VSw5D8Z98t+Y09NU2/b6y6yjHiYL3ES+vDaz//7Zc3/sviAyluHchtzZ32O8Nsd1p9c/nNASKuIE54ymUymUymUymUymUymT4AA/vgfgACvPdA3oBsNG6NGdVE5uWOKs1MraePmxR82qw/n6aOF+0uUH3jLdUPdNFfaiE9KR9phQyVK6OJs5Bpt3R1Yq8891vIP0FkAC0IPzEVF6f8aZNnerDP8YeTzNU77AdUQiOVsXacc4ckROSgNr2XA9GirieLbatODWVrTJIXnmC9eLDZCDbzzDcrMGv7uuObeeNzcsbiQkQdCTUsX7WIa+lyX8nB6HdjsuuOtv23l/dHHtnGjfepd7XHzAhigJDD8kWC1qv4DclURuvnMU3t/9e9c+u+O07rX6hVOgqmCKlOolQT53P9Ac1h9d+Jpv6HdGnrO8hfK3Gx+Sa4rQbI5Jxh0vsxAhqYC0x9D4e50PwoYVoL0q6zsmw8JopxAcs2kQYQDDnGdvNpruK1PqeqoxAHrDVLsYuPIF/6PlbyVQnO3RsIe5gvRNpwmAyEAiLTO8IaL7UuERuSYXio/y9RyfLGYr7j/CSCTqa+9X/PNHjCacE/9WRYq14J7ncyDxQYDuZ0ph32jf7erbZ9fqih+LwwHTClbJfn/UbKCy/kX7rdHHzaTWSTZyzSTcR/ZcOjmQiCfXj4KnE37uCvRC2O88geBhmQ4hXIwj1XJEYufQwZkAC8DptrIoqk1NxU/AsLtnB5PgKS1CBGNDC3lOkjuTinEupqZEyUbQH9y7t8lM4VZfMp3WNG5ZCQ5D7tnC3dTQQZTSvGQ4te6/jf/fovFQk/qJyM0lfxwbIzdW1mYGz35G+O8pJGlZPTqNET+Vweek/8J3kIZLG+W1VK5uxJu29GzacZjmg8uIlU/xo4d3ZQkTi2he/Ts6TB3rqYPC7el211i448JyUEDXRlup6peMX+Y/UUMvOhcOrWS96Zb/U8GLvasFixvkI/cxwKL5nvG7L83Otpjg1o/jyxXaTfnLXBqyCTHQeLvi0KvY8UYtl5geXcx8HP5neyBsjC8kcxvqqu+A34mdZh+aemWqCPegxPWqKAvl92QRe5nED5RTpvO9SsLc5Z+d+dJJdapNLtlpn8xqeU6NyQwu1QxflXzutQogt+4ryPo8w/8gAsPk1++5vl4CANqEWe1wBWv2vO8Afh6wkGHLrmfuBLZ00EzPkE7X3FJVM9fgKm0lbMpE99uN358H5l7ieiBxVARa07ndqX/dokUa1SP5ki80GLTI2E2rU6efILt7ph1lXwjobpkN3eeUgRqfZTTiCu3H2ru8GpshMQ5ImNZY1b4g1KR9GSEbS8j9FpnP0Y39Y28iU3ixbGG7rgv9inTbOOhCLdI+0PlqJK4j1bnb2aAWkMmL73HKXjEk30G5SOofMq+rNN01mqQ6/B5J62695JoXqmWo7KeK822mdFt4wnNmg73zNaA71ueyZTayTD7S4yEkw34pKsqCBhBttfVK0/B38YwXN2yET7DlWhFiC8i9sSjjlAhPjKOo1xJTLTuFWzBeQ9Z3kHMRMkAfhFOxSVCPgQPMmeAf/aXjuPLsFimsfegbvbeUcwdG998wVDBVAurAXS7HcXvAKpQGePaJ/m31ENypc0BtB6tjcN7S0nLXM9VTOMKV5EZNG5UXJhUH9DPJo9TZ6tU+hCD3yPZ/N79h1cCtWqDWe1c52QtR96qPljkRXUzPWLJylnRQsEZeKqubkWfBobka6jJN4TtJ5UAgl5T6VStPOpqaYnJkeaLteCvn9kwXefj9AyuRkPh8v4doaH/Em414AVwfu/0l1lzo8G48ZP1yE0vEC4kMXmJjNliVwa49BiVRc1FR0iqmUGayprJEb39M5b71KHp9KT888wzqgT+k/aptCr7C/3uGJdqEZQMTogsJBXFcKt7QOMQ7RLz0ozHhE6I7Oc9yp/oiZixaLq4oKhAjfFe8fuLm7qlWrd5qHuyRp78o6RCg7E7aX/NN0Ejouixid3/F+oT1sclt4n9a+C0HUXiO/0mLTpdhrr+i6TlB/c+46UMwyY5cGkECmyvn1N7GJqw8li48bP2B6QmmKsvIwaTfmjIRIWRqYbEU/4l7Y9rm9/+lEk1rqMcGclJVFIS/erk6kw8E/czd2gLut7S2EM4eTFnVQ7nb4wl/xYid5IpLEtFnQnzk1XCkIUlcpianJ5GOO24Q8NhiyfKkUzP0JNEofGsdGheYekX7l62bS8k1cp17ng+shD1+GJPlEfrHUC8BTsg2093bMfKZ4nLBD45kSYdMQsAL0goMQSbhFpVGIRX0oCm634veiIRR/0Xjm5KfzqwZ5110WOkrNG6U3tuwpbtMgE/0ISdFTziER13UOtJ/8fULTRhDdxqQ/dUT15oo9t6HZ8lcOs5bgGj+ABuUSdFBYGFTjP0MCmsPy2x7YfLjFVdAJzl8QgxzsG6leJoNmeEb05r3RYHdAMfmzz93uB1RmYSKgKac5wJrHvWFyU1qw179SYwWWJ78eU1oo24z2diKhCuEyw9zydqabw6yMFIc53hH3OfAp5noTvhTk9lsgKBPw6m9j9wVHzS1UVUwexUGUWsh80aK8ApM53TUfHTyHvnoUY5IPtXL3C9PdZ2+TJJOU4RGHVgrxwj3/56BNVZj82kyyR2TPPCUMRq1GqWGMTJVc7Y2TuqVVGNWvo++2GDfFF9I4bW26tfgCfujeIsjaz2QibLmtu9OqJBKTCr+U0p3THYVy7p07hFgYjlWA016J4EsNtvQvYcEsD8WE6DbklIm7L82XZqi609uG4eJipBlT9zc6mp0W94MuP934yz7IsID35C6tfAaSpgvGVgoL34sld2KSU9LDNLPcF2UYqdAThaDSPj/JSLAAiay4TgSIqQSXRnpJmwLtRXANSyBnbBYBhCf6+dPLOgzTFehcmlrxb4L+khP4RWYFEbTXhNhLSYUlTJjGFMJ9uR8NnkuTS/R9IUIqIp77oiNOCG8Y+9JPX95Rs0Y5JH0ATn/add64X8m1DHmLUKAz82duaWVMOW1h3RvutDiVAQSztTx9cskO/3Ky2e1ptEJovMF0w8Gz5KwH31YzdOhcXgF4v61TYwh/4OkDUi8bdmDKvUNVeMt1alEmP9tMhQOgpWEF9dpPYQ1BZLBG00wHwRbZfro4xEXDBEeVJo09wYLPm9d0Vp1Oqz6vC3hx/efSfAGIuyr8JGtnIShbByDvphDTlPBEZpJg6rwyD3djq+kMTuMmcdruvzUAM1uEoIyRrN4gOvfTmP6jwblaENYGX2Se6CZb3FBmdlLiF6o61smksXr57LDUAvnWZJcpDfV1uf9e3VvwFuF/tDRA6TLKG9vHZ4CsvwSAdEwDNWDwIr58n9lApdtBNDXBppcNoJ9BBFKne1EleP9WGM12hVPUN1XIYU9zxFYvNbGW8nRXv2wImt2i+WItzTi4BeN9gnhzmT+vngjXJgQi/ji/KIvXdTtoOdW2A6wc1bh4Lzk1/6QpHal/68BFbQgkllPSsNElMgjR/L5f6EGI3Vu2q1pbWYuJmY3MpISAy7qtVR3IClWmIZ90YF4FXZUrW4Pgb/OK0vFYTkjZcaiiRG5ml3UgMXrcwo91BuZJx661uvwH+uaGfwgxCJrRnNgjGA+5ZsaGRib5nU8eQZn7Uy9k7InINLv6GcXDDWcf9Ch/y6Eqwpjl/Ett8mu/Fc47NiwZjEXkIHZ2nyESHZKwUx+3w9AYBf7HPFLNZlkwZSdEOHpt80ci0fAaicP/XjA6UXxJm8nUo21X+vXnNPKeNxq3o+AYJqUaYtG04lD/4xRp3R+ZODKe2wtlyvLrU5BvleOTjAa+pJEsA4l9di/UTOvY1Fngx3xi4oGeeeKOUltcNVGBYZOjlQmy6mFmkrkfpJCKO1QoelDg5BZdbyne3qN2em8TivAMb8MROkneByKpSx5UDE2D5YRFxVZjZNsZe6gzQPEb+pAkCU3L8YzmX7iloz7gbrboEdn9xDkSjSOuUhZDpWkh4XVJBUeX9RJkTPTd/RiSMVfoqSO2y/tXsfAE7VSMxYYyy3B0W9nwEn8fn1uXn/htGDQ2AJmc06/pdyaHPVmViBGoXm9Hu7wIZ5yVvInCwid6rnoyrQWalCr2BTDVjknXjSEO8TPht+Psfo6lEQdqIkPHQ1e9jx6qSP3QmWcQkLSLvzpZBa9IL6vy98VrPh5mUr8v56V8+4AeCS+fmUgMOTjGQRLv1UILaaaPu1AOaQugagD6wMMD9RwbelqwzcUowDsu0LgXYVD8Y0OFa1Srg1NGikteRnNYCogTFR74lwSvQrXT1mYH8qevrNEUq1gAAAAAAAAAA=" alt="CAN-DO" style="height:44px;object-fit:contain">
+<img src="cando-logo.png" alt="CAN-DO" style="height:72px;object-fit:contain" onerror="this.onerror=null;this.src='data:image/webp;base64,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'">
 <nav style="display:flex;gap:20px;flex-wrap:wrap">
-<a href="#story">Her Story</a><a href="#clemency">Clemency</a><a href="#pardon">Pardon</a><a href="#ussc">USSC 2025</a><a href="#freed">People Freed</a><a href="#media">Press</a><a href="#action">Take Action</a>
+<a href="#mission">Mission</a><a href="#freed">People Freed</a><a href="#ussc">USSC 2025</a><a href="#clemency">Clemency</a><a href="about.html">About Amy</a><a href="#media">Press</a><a href="#action">Take Action</a>
 </nav>
 </div>
 </header>
@@ -85,46 +89,57 @@ footer img{height:50px;margin-bottom:12px}
 <section class="hero">
 <div class="hero-overlay"></div>
 <div class="wrap" style="padding:120px 24px 80px;position:relative;z-index:2;width:100%">
-<div style="font-size:12px;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,.7);margin-bottom:20px;font-weight:600">Founder · Advocate · Filmmaker · Conspiracy Law Expert</div>
-<h1 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,7vw,80px);font-weight:900;line-height:1.05;margin:0 0 24px;color:#fff;max-width:800px">Amy Ralston <span style="color:var(--gold)">Povah</span></h1>
-<p style="font-size:clamp(16px,2vw,20px);line-height:1.7;color:rgba(255,255,255,.8);max-width:640px;margin:0 0 40px;font-weight:300">Sentenced to 24 years for a conspiracy she didn't commit. Granted clemency by President Clinton. Fully pardoned by President Trump. Now one of America's most recognized voices for clemency and criminal justice reform — having helped free over 100 people through the CAN-DO Foundation.</p>
+<div style="font-size:12px;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,.72);margin-bottom:20px;font-weight:600">CAN-DO Foundation · Clemency Advocacy · Families Reunited</div>
+<h1 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,7vw,80px);font-weight:900;line-height:1.05;margin:0 0 24px;color:#fff;max-width:900px">Justice Through <span style="color:var(--gold)">Clemency</span></h1>
+<p style="font-size:clamp(16px,2vw,20px);line-height:1.7;color:rgba(255,255,255,.82);max-width:760px;margin:0 0 40px;font-weight:300">CAN-DO fights for second chances for people serving excessive federal sentences. We spotlight urgent cases, push policy reform, and help bring people home through clemency, compassionate release, and First Step Act advocacy.</p>
 <div style="display:flex;gap:14px;flex-wrap:wrap">
-<a href="#story" class="btn btn-red">Read Her Full Story</a>
+<a href="#mission" class="btn btn-red">See the Mission</a>
 <a href="#action" class="btn btn-outline">Support CAN-DO</a>
 </div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-top:64px;max-width:750px">
-<div class="stat-card"><div class="stat-num">24yr</div><div class="stat-label">Sentence</div></div>
-<div class="stat-card"><div class="stat-num">9yr 3mo</div><div class="stat-label">Served</div></div>
-<div class="stat-card"><div class="stat-num">138+</div><div class="stat-label">Freed</div></div>
-<div class="stat-card"><div class="stat-num">44</div><div class="stat-label">Obama (Women)</div></div>
-<div class="stat-card"><div class="stat-num">2</div><div class="stat-label">Pres. Grants</div></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-top:64px;max-width:820px">
+<div class="stat-card"><div class="stat-num">138+</div><div class="stat-label">People Freed</div></div>
+<div class="stat-card"><div class="stat-num">44</div><div class="stat-label">Women Clemencies (Obama)</div></div>
+<div class="stat-card"><div class="stat-num">20+ yrs</div><div class="stat-label">Advocacy Work</div></div>
+<div class="stat-card"><div class="stat-num">Bipartisan</div><div class="stat-label">Policy Impact</div></div>
+<div class="stat-card"><div class="stat-num">24/7</div><div class="stat-label">Family Support</div></div>
+</div>
+<div class="mission-grid">
+<article class="mission-card"><h3>Who We Serve</h3><p>People impacted by harsh federal drug sentencing and conspiracy law.</p></article>
+<article class="mission-card"><h3>What We Do</h3><p>Case advocacy, clemency strategy, media visibility, and policy testimony.</p></article>
+<article class="mission-card"><h3>Why It Matters</h3><p>Second chances restore families, communities, and trust in the justice system.</p></article>
 </div>
 </div>
 </section>
 
-<!-- STORY -->
-<section id="story" class="section"><div class="wrap">
-<div class="label">Her Story</div>
-<h2>From Conspiracy <em>to Clemency to Pardon</em></h2>
+<!-- MISSION -->
+<section id="mission" class="section"><div class="wrap">
+<div class="label">The Organization</div>
+<h2>CAN-DO Is the <em>Main Story</em></h2>
 <div class="grid grid-2">
 <div style="font-size:16px">
-<p style="margin-bottom:18px">At 28, Amy was a successful VP of Sales at Commonwealth Bancorp — a legitimate mortgage company owned by her then-husband Sandy Pofahl. She had no criminal record and no knowledge that Sandy was secretly manufacturing MDMA overseas.</p>
-<p style="margin-bottom:18px">In 1989, federal agents raided her home. They demanded she wear a wire against Sandy or face conspiracy charges carrying 20 years to life. <strong>She refused — she genuinely didn't know enough to cooperate.</strong> The agents promised to "destroy her life."</p>
-<p style="margin-bottom:18px">Two years later, she was indicted in Waco, TX. Denied bail. Held one year with a public defender. The kingpin — her husband — got 4 years in Germany and 3 years U.S. probation. <strong style="color:var(--red)">Amy received 24 years, 4 months</strong> for collecting bail money at his request. Six co-defendants later filed affidavits swearing Amy was not involved.</p>
-<p>From her cell at FCI Dublin, she launched a letter-writing campaign that changed everything. A landmark <em>Glamour Magazine</em> exposé ignited public outcry. 17 members of Congress wrote in support. On <strong>July 7, 2000</strong>, President Clinton commuted her sentence. <a href="https://www.candoclemency.com/u-s-v-amy-ralston-pofahl-povah/" target="_blank">Read the full case details →</a></p>
+<p style="margin-bottom:16px">CAN-DO (Clemency for All Nonviolent Drug Offenders) is a national advocacy foundation focused on people serving excessive sentences for non-violent federal offenses. We build clemency and release pathways while helping families navigate every stage of the process.</p>
+<p style="margin-bottom:16px">This site is now structured around current impact first — videos, releases, and active reform work — while Amy's personal story lives in the About section as important background context.</p>
+<p>From direct case support to public testimony, CAN-DO's work centers the people still inside and the families waiting at home.</p>
 </div>
-<div style="background:var(--ltblue);border-radius:8px;padding:28px 24px;border-left:4px solid var(--blue)">
-<h3 style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:16px">Case Facts</h3>
+<div style="background:var(--ltblue);border-radius:8px;padding:28px 24px;border-left:4px solid var(--teal)">
+<h3 style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:16px">Current Priorities</h3>
 <table style="width:100%;font-size:14px;border-collapse:collapse">
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top;white-space:nowrap">Charge</td><td style="padding:5px 0">Conspiracy — MDMA</td></tr>
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Sentence</td><td style="padding:5px 0">24 years, 4 months</td></tr>
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Drug Qty</td><td style="padding:5px 0">3M+ tablets (Sandy's entire operation)</td></tr>
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Amy's Role</td><td style="padding:5px 0">Collected bail money after husband's arrest</td></tr>
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Sandy's Sentence</td><td style="padding:5px 0">4 yrs Germany + 3 yrs probation</td></tr>
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Affidavits</td><td style="padding:5px 0">6 co-defendants swore Amy was not involved</td></tr>
-<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Congress</td><td style="padding:5px 0">17 House & Senate members wrote for clemency</td></tr>
+<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top;white-space:nowrap">Casework</td><td style="padding:5px 0">Active clemency and compassionate release campaigns</td></tr>
+<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Policy</td><td style="padding:5px 0">Conspiracy guideline reform and sentence reduction advocacy</td></tr>
+<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Media</td><td style="padding:5px 0">Updated interviews, hearings, and case videos</td></tr>
+<tr><td style="color:var(--red);font-weight:700;padding:5px 10px 5px 0;vertical-align:top">Families</td><td style="padding:5px 0">Resources, referrals, and morale support during long cases</td></tr>
 </table>
 </div>
+</div>
+</div></section>
+
+<!-- STORY -->
+<section id="story" class="section"><div class="wrap">
+<div class="label">About Amy</div>
+<h2>Founder Background <em>(Supporting Context)</em></h2>
+<div class="card" style="max-width:900px">
+<p style="font-size:16px;margin-bottom:12px">Amy’s personal case history remains important context for CAN-DO’s mission. This section keeps her story available without making her the homepage focal point.</p>
+<p><a href="about.html" style="font-weight:700">Read Amy's full story on the About page →</a></p>
 </div>
 </div></section>
 
